@@ -5,27 +5,80 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Para Anel… ❤️</title>
 <style>
-*{box-sizing:border-box}
-body{margin:0;background:#0b0b0b;color:#f5efe5;font-family:Georgia,'Times New Roman',serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
-.card{width:min(520px,100%);background:#111;border:1px solid #b99555;border-radius:22px;padding:34px 24px;box-shadow:0 18px 60px #000}
-h1{font-size:42px;font-weight:normal;text-align:center;margin:0 0 10px;color:#d7b16a}
-.subtitle{text-align:center;font-style:italic;line-height:1.6;color:#ddd;margin:0 auto 28px;max-width:410px}
-.song{display:block;text-decoration:none;color:#f5efe5;border:1px solid #6f5833;border-radius:15px;padding:17px 18px;margin:12px 0;background:#171717;transition:.2s}
-.song:hover{transform:translateY(-2px);border-color:#d7b16a}
-.num{color:#d7b16a;font-size:13px;letter-spacing:2px;text-transform:uppercase}
-.name{display:block;font-size:20px;margin-top:5px}
-.note{text-align:center;color:#aaa;font-size:14px;line-height:1.6;margin-top:28px}
-.heart{text-align:center;color:#d7b16a;font-size:25px;margin:8px}
+  *{box-sizing:border-box}
+  body{margin:0;background:#090909;color:#f4eee5;font-family:Georgia,'Times New Roman',serif}
+  .wrap{max-width:760px;margin:auto;padding:48px 22px 60px}
+  .heart{font-size:48px;text-align:center;margin-bottom:8px}
+  h1{text-align:center;font-size:42px;font-weight:400;margin:0 0 12px}
+  .intro{text-align:center;line-height:1.8;color:#d7cec2;font-size:18px;margin:0 auto 38px;max-width:600px}
+  .line{width:80px;height:1px;background:#b89a5a;margin:0 auto 34px}
+  .song{display:flex;gap:18px;border:1px solid #3c3327;border-radius:16px;padding:20px;margin:18px 0;background:#111}
+  .num{color:#b89a5a;font-size:18px;padding-top:3px}
+  .song-info{flex:1}
+  h2{font-size:25px;font-weight:400;margin:0 0 7px}
+  p{color:#bdb3a8;margin:0 0 15px;line-height:1.5}
+  audio{width:100%}
+  .footer{text-align:center;margin-top:42px;color:#bdb3a8;line-height:1.8}
+  .sig{color:#d8bd7d;font-size:20px}
 </style>
 </head>
 <body>
-<main class="card">
-  <div class="heart">♡</div>
+<main class="wrap">
+  <div class="heart">❤️</div>
   <h1>Para Anel…</h1>
-  <p class="subtitle">Tres canciones que hice pensando en ti.<br>Escúchalas cuando estés sola.</p>
-  <a class="song" href="https://suno.com/s/mCw4nC2tKKhA2PV8" target="_blank" rel="noopener"><span class="num">Canción 1</span><span class="name">Canción 1 ♪</span></a><a class="song" href="https://suno.com/s/CijRbRai7yPgddx9" target="_blank" rel="noopener"><span class="num">Canción 2</span><span class="name">Canción 2 ♪</span></a><a class="song" href="https://suno.com/s/c9o62i4fpMVMGs5e" target="_blank" rel="noopener"><span class="num">Canción 3</span><span class="name">Canción 3 ♪</span></a>
-  <p class="note">No tienes que responderme nada.<br>Solo quería que escucharas lo que alguna vez sentí y no siempre supe decirte.</p>
-  <div class="heart">♥</div>
+  <p class="intro">
+    También te hice canciones…<br>
+    Porque hubo cosas que no supe decirte con palabras.<br>
+    Entonces intenté decirlas de otra manera.<br><br>
+    Escúchalas cuando estés sola.<br>
+    No tienes que responderme nada.<br>
+    Solo quiero que las escuches y sepas que, detrás de cada una,
+    había un hombre pensando en ti.
+  </p>
+  <div class="line"></div>
+  
+    <section class="song">
+      <div class="num">01</div>
+      <div class="song-info">
+        <h2>Anel</h2>
+        <p>Una canción que hice pensando en ti. ❤️</p>
+        <audio controls preload="metadata">
+          <source src="anel.mp3" type="audio/mpeg">
+          Tu navegador no puede reproducir este audio.
+        </audio>
+      </div>
+    </section>
+    
+
+    <section class="song">
+      <div class="num">02</div>
+      <div class="song-info">
+        <h2>Mi bonita</h2>
+        <p>Una canción que hice pensando en ti. ❤️</p>
+        <audio controls preload="metadata">
+          <source src="mi-bonita.mp3" type="audio/mpeg">
+          Tu navegador no puede reproducir este audio.
+        </audio>
+      </div>
+    </section>
+    
+
+    <section class="song">
+      <div class="num">03</div>
+      <div class="song-info">
+        <h2>Llegaste a tiempo</h2>
+        <p>Una canción que hice pensando en ti. ❤️</p>
+        <audio controls preload="metadata">
+          <source src="llegaste-a-tiempo.mp3" type="audio/mpeg">
+          Tu navegador no puede reproducir este audio.
+        </audio>
+      </div>
+    </section>
+    
+  <div class="footer">
+    Tres canciones · Una historia · Todo mi cariño<br><br>
+    <span class="sig">Mi bonita. ❤️</span>
+  </div>
 </main>
 </body>
 </html>
